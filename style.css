@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+img {
+    width: 256px;  
+    height: 256px; 
+}
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #615c5c;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+.courses {
+    margin-top: 40px;
+}
+
+.courses li {
+    margin-bottom: 20px;
+}
+
+.courses a {
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+.slider {
+    border: 2px solid black;
+    width: 256px;
+    height: 256px;
+    margin: 20px auto;   /*no need to center*/
+    overflow: hidden;
+}
+.slider-line {
+    width: 1024px;
+    height: 256px;
+    background: orangered;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: all ease 1s;
+}
+#btn2 {
+    width: 1200px;
+    display:flex;
+    justify-content: space-between;
+   
+}
